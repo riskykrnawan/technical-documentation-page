@@ -1,0 +1,39 @@
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.main {
+    font-family: 'Times New Roman', Times, serif;
+}
+.active {
+    color:#0d6efd !important;
+    background-color: transparent !important;
+}
+.nav-link {
+    color:black;
+}
+.code {
+    background-color:#F7F7F7;
+    padding: 18px;
+    color:grey;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.bxs-chevron-down {
+    position: relative;
+    top:3.5px;
+    left:4px;
+}
+
+@media only screen and (max-width: 1023px){
+    .aside {
+        position: static;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .aside {
+        position:fixed;
+    }
+}
+
